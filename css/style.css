@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* background-color: blueviolet; */
+}
+.banner-content h1{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-image: radial-gradient(black,rgb(205, 21, 21));
+    color: transparent;
+    background-clip: text;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.logo img{
+    border-radius: 50%;
+}
+.navbar{
+    background-color: black;
+    padding: 10px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navlinks ul li{
+    margin-right: 20px;
+}
+.navlinks ul li a{
+    color: beige;
+}
+.navlinks ul li a:hover{
+    border: 2px solid red;
+}
+.active{
+    color: red !important;
+}
+.banner{
+    height: calc(100vh - 80px);
+    background-image: url(../images/virtual_learning.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 49px 0;
+}
+.banner .container{
+    /* background-color: aquamarine; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    /* background-color: blueviolet; */
+    max-width: 300px;
+}
+span{
+    color: rgb(221, 225, 196);
+}
+.banner-content p{
+    font-size: 18px;
+    /* width: 30%; */
+    font-weight: 300;
+    /* background-color: blue; */
+    font-style: italic;
+}
+.common-padding{
+    padding: 100px 0;
+}
+.section-heading{
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.section-heading h2{
+    margin-bottom: 20px;
+}
+.section-heading p{
+    font-size: 20px;
+    font-style: italic;
+    background-image: radial-gradient(rgb(12, 2, 2),rgb(8, 8, 8));
+    color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+h3{
+    background-image: linear-gradient(to left,rgb(41, 14, 4),rgb(114, 36, 49));
+    color: transparent;
+    background-clip: text;
+}
+.attract{
+    color: crimson;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 -15px; */
+}
+.col{
+    padding: 0 15px;
+}
+.col-50{
+    width: 50%;
+}
+.col-33{
+    width: 33.33%;
+}
+.col-25{
+    width: 25%;
+}
+.features{
+    background-image: url(../images/Proximity_Learning.jpeg);
+    /* background-repeat: repeat; */
+    background-attachment: fixed;
+}
+.btn{
+    padding: 5px 30px;
+    border: 2px solid red;
+    color: rgb(15, 12, 12);
+    border-radius: 40px;
+}
+.btn:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.about-content{
+    /* background-color: chocolate; */
+    padding: 20px 0;
+}
+.about-content h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about_span{
+    color: crimson;
+}
+.about-content p{
+    font-size: 18px;
+    /* width: 30%; */
+    font-weight: 300;
+    /* background-color: blue; */
+    font-style: italic;
+}
+footer{
+    background-color: black;
+    padding: 50px 0;
+}
+.companylogo{
+    max-width: 100px;
+    width: 100%;
+}
+.companylogo img{
+    border-radius: 50%;
+}
+.socialicons ul{
+    display: flex;
+    justify-content: space-between;
+}
+.socialicons ul li{
+    margin-left: 10px;
+}
+.socialicons ul li a{
+    color: white;
+}
+.form_subs #email{
+    background: none;
+    outline: none;
+    border: 2px solid white;
+    padding: 8px;
+    position: relative;
+}
+.vertical-line{
+    border-left: 1px solid white;
+}
+.form_subs input[type="submit"]{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: none;
+    padding: 8px;
+    position: absolute;
+}
+.footer-head{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
